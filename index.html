@@ -1,0 +1,1272 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- font awesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <!-- bootstrap cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+      integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+      crossorigin="anonymous"
+    />
+
+    <!-- css link -->
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <!-- header start -->
+      <header style="background-color: #eb6b22; padding: 0px 2rem">
+        <nav>
+          <ul class="nav list">
+            <li class="nav-item">
+              <a class="nav-link" style="font-size: 12px; color: white" href="#"
+                >Become a Seller</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" style="font-size: 12px; color: white" href="#"
+                >Daraz Donates</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" style="font-size: 12px; color: white" href="#"
+                >Help & Support</a
+              >
+            </li>
+
+            <a
+              href="#"
+              class="ml-auto pr-2"
+              style="
+                text-decoration: none;
+                background-color: rgba(0, 0, 0, 0.3);
+                height: 2rem;
+                border-radius: 0px 0px 8px 8px;
+              "
+              ><img
+                style="border-radius: 8px"
+                class="p-1"
+                height="26px"
+                width="30px"
+                src="img/download.jpg"
+                alt=""
+              /><span style="color: white; font-size: 13px"
+                >Save More on App</span
+              ></a
+            >
+          </ul>
+        </nav>
+        <div>
+          <a href="#" style="text-decoration: none" class="navbar-brand"
+            ><img height="50px" src="img/daraz1.png" alt=""
+          /></a>
+          <span class="search pl-1">
+            <input
+              style="width: 60%"
+              type="search"
+              name="search"
+              id="search"
+              placeholder="Search in Daraz"
+              autofocus
+            />
+          </span>
+
+          <a href="#" class="pl-2 p-2" id="icon"
+            ><i class="fa-solid fa-user"></i><span class="pl-1">Login</span></a
+          >
+          <a href="#" class="pl-2 p-2" id="icon">Sign up</a>
+
+          <a href="#" style="color: white"><i class="fa-solid fa-globe"></i></a>
+          <select name="select" id="select">
+            <option value="EN">EN</option>
+            <option value="BN">BN</option>
+          </select>
+          <a href="#" style="color: white; font-size: 1.5rem"
+            ><i class="fa-solid fa-cart-shopping"></i
+          ></a>
+        </div>
+      </header>
+
+      <!-- header end -->
+
+      <!-- main start -->
+      <main id="manu">
+        <div class="row mt-2">
+          <div class="col-lg-3 col-sm-12">
+            <div id="para">
+              <p>Women's & Girls' Fashion</p>
+              <p>Health & Beauty</p>
+              <p>Watches, Bags, Jewellery</p>
+              <p>Men's & Boys' Fashion</p>
+              <p>Mother & Baby</p>
+              <p>Electronics Devices</p>
+              <p>TV & Home Appliances</p>
+              <p>Electronic Accessories</p>
+              <p>Groceries</p>
+            </div>
+          </div>
+          <div class="col-lg-9" id="full-img">
+            <div
+              id="carouselExampleCaptions"
+              class="carousel slide"
+              data-ride="carousel"
+            >
+              <ol class="carousel-indicators">
+                <li
+                  data-target="#carouselExampleCaptions"
+                  data-slide-to="0"
+                  class="active"
+                ></li>
+                <li
+                  data-target="#carouselExampleCaptions"
+                  data-slide-to="1"
+                ></li>
+                <li
+                  data-target="#carouselExampleCaptions"
+                  data-slide-to="2"
+                ></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    src="https://icms-image.slatic.net/images/ims-web/b3e4ce82-fe5a-4226-9946-477429ef1d73.jpg"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>First slide label</h5>
+                    <p>
+                      Some representative placeholder content for the first
+                      slide.
+                    </p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="https://icms-image.slatic.net/images/ims-web/8b6c6d31-5cf1-4fbc-87b1-47acf2bc47d2.jpg"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Second slide label</h5>
+                    <p>
+                      Some representative placeholder content for the second
+                      slide.
+                    </p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="https://icms-image.slatic.net/images/ims-web/78296f26-b13c-4d62-92be-e60ccae3de9a.jpg"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Second slide label</h5>
+                    <p>
+                      Some representative placeholder content for the second
+                      slide.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="carousel-item">
+                  <img
+                    src="https://icms-image.slatic.net/images/ims-web/51aae513-018d-49b7-bc04-abcc8a61ce62.jpg"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Second slide label</h5>
+                    <p>
+                      Some representative placeholder content for the second
+                      slide.
+                    </p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="https://icms-image.slatic.net/images/ims-web/fac3ca78-4c59-4251-95bd-70c91c4df10d.jpg"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Third slide label</h5>
+                    <p>
+                      Some representative placeholder content for the third
+                      slide.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-target="#carouselExampleCaptions"
+                data-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="sr-only">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-target="#carouselExampleCaptions"
+                data-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="sr-only">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- banner start -->
+        <div class="row">
+          <img class="banner" src="img/daraz 12.12.jpg" alt="" />
+        </div>
+
+        <div class="banner-des">
+          <a href="#"
+            ><i class="fa-solid fa-shield-halved"></i
+            ><span>Safe Payment</span></a
+          >
+          <a href="#"
+            ><i class="fa-solid fa-truck-fast"></i
+            ><span>Nationwide Delivery</span></a
+          >
+          <a href="#"
+            ><i class="fa-solid fa-rotate-left"></i
+            ><span>Free & EAsy Returns</span></a
+          >
+          <a href="#"
+            ><i class="fa-solid fa-tag"></i
+            ><span>Best Prize Guaranteed</span></a
+          >
+          <a href="#"
+            ><i class="fa-solid fa-atom"></i
+            ><span>100% Authentic Products</span></a
+          >
+        </div>
+
+        <div class="row mt-4 ml-auto border p-2" id="des">
+          <div style="height: 4.5rem; width: 5.5rem">
+            <img
+              style="height: 4.5rem; width: 4.5rem"
+              src="img/Wholesale Prize.png"
+              alt=""
+            />
+            <p style="font-size: 0.9rem">Wholesale Prize</p>
+          </div>
+
+          <div style="height: 4.5rem; width: 5.5rem">
+            <img
+              style="height: 4.5rem; width: 4.5rem"
+              src="img/Everyday Low.png"
+              alt=""
+            />
+            <p style="font-size: 0.9rem">Everyday Low Price !</p>
+          </div>
+
+          <div style="height: 4.5rem; width: 5.5rem">
+            <img
+              style="height: 4.5rem; width: 4.5rem"
+              src="img/Free Delivery.png"
+              alt=""
+            />
+            <p style="font-size: 0.9rem">Free Delivery</p>
+          </div>
+
+          <div style="height: 4.5rem; width: 5.5rem">
+            <img
+              style="height: 4.5rem; width: 4.5rem"
+              src="img/Fashion.png"
+              alt=""
+            />
+            <p style="font-size: 0.9rem">Fashion</p>
+          </div>
+
+          <div style="height: 4.5rem; width: 5.5rem">
+            <img
+              style="height: 4.5rem; width: 4.5rem"
+              src="img/Beauty.png"
+              alt=""
+            />
+            <p style="font-size: 0.9rem">Beauty & Glamour</p>
+          </div>
+
+          <div style="height: 4.5rem; width: 5.5rem">
+            <img
+              style="height: 4.5rem; width: 4.5rem"
+              src="img/Mart.png"
+              alt=""
+            />
+            <p style="font-size: 0.9rem">Mart</p>
+          </div>
+
+          <div style="height: 4.5rem; width: 5.5rem">
+            <img
+              style="height: 4.5rem; width: 4.5rem"
+              src="img/Home.png"
+              alt=""
+            />
+            <p style="font-size: 0.9rem">Home Makeover</p>
+          </div>
+
+          <div style="height: 4.5rem; width: 5.5rem">
+            <img
+              style="height: 4.5rem; width: 4.5rem"
+              src="img/Best.png"
+              alt=""
+            />
+            <p style="font-size: 0.9rem">Best Price Guaranteed</p>
+          </div>
+
+          <div style="height: 4.5rem; width: 5.5rem">
+            <img
+              style="height: 4.5rem; width: 4.5rem"
+              src="img/Daraz Card.png"
+              alt=""
+            />
+            <p style="font-size: 0.9rem">Daraz Card</p>
+          </div>
+        </div>
+
+        <!-- banner end -->
+        <!-- flash sale start -->
+
+        <div class="mt-5">
+          <h2>FlashSale</h2>
+        </div>
+        <div class="row color">
+          <div class="on col-2">
+            <p>On Sale Now</p>
+          </div>
+
+          <div class="flex ml-5 col-3">
+            <p>Ending in</p>
+            <h5 class="h2" style="font-size: 20px; padding-left: 4px"></h5>
+          </div>
+
+          <div class="shope col-6">
+            <p class="shop">SHOP MORE</p>
+          </div>
+        </div>
+
+        <div class="row" style="background-color: white; padding-bottom: 1rem">
+          <div class="col-2">
+            <div class="card">
+              <div class="lg">
+                <img
+                  width="159px"
+                  height="159px"
+                  src="https://static-01.daraz.com.bd/p/a5b6e40498aa3f9578215eb4430fbe82.jpg"
+                  alt=""
+                />
+              </div>
+              <div style="padding: 10px">
+                <p style="font-size: 14px">
+                  Levin Premium Quality Any 5 Pairs Low Cut No Show....
+                </p>
+
+                <h5>$ : 169</h5>
+                <p><del style="color: gray" class="pr-1">$300</del>-46%</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-2">
+            <div class="card">
+              <div class="lg">
+                <img
+                  width="159px"
+                  height="159px"
+                  src="https://static-01.daraz.com.bd/p/67b03fd295e0d37d6ab2dd43d0464c9e.jpg"
+                  alt=""
+                />
+              </div>
+              <div style="padding: 10px">
+                <p style="font-size: 14px">
+                  Levin Premium Quality Any 5 Pairs Low Cut No Show....
+                </p>
+
+                <h5>$ : 60</h5>
+
+                <p><del style="color: gray" class="pr-1">$30</del>-50%</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-2">
+            <div class="card">
+              <div class="lg">
+                <img
+                  width="159px"
+                  height="159px"
+                  src="https://static-01.daraz.com.bd/p/6d2a04a928219683ec5101fb349e8c19.jpg"
+                  alt=""
+                />
+              </div>
+              <div style="padding: 10px">
+                <p style="font-size: 14px">
+                  Levin Premium Quality Any 5 Pairs Low Cut No Show....
+                </p>
+
+                <h5>$ : 400</h5>
+                <p><del style="color: gray" class="pr-1">$1000</del>-60%</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-2">
+            <div class="card">
+              <div class="lg">
+                <img
+                  width="159px"
+                  height="159px"
+                  src="https://static-01.daraz.com.bd/p/cd616e73acbfa5649c5ff0e3769b887a.jpg"
+                  alt=""
+                />
+              </div>
+              <div style="padding: 10px">
+                <p style="font-size: 14px">
+                  Levin Premium Quality Any 5 Pairs Low Cut No Show....
+                </p>
+
+                <h5>$ : 400</h5>
+                <p><del style="color: gray" class="pr-1">$1000</del>-60%</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-2">
+            <div class="card">
+              <div class="lg">
+                <img
+                  width="159px"
+                  height="159px"
+                  src="https://static-01.daraz.com.bd/p/03f705615060bece1b9f14814b719bbf.jpg"
+                  alt=""
+                />
+              </div>
+              <div style="padding: 10px">
+                <p style="font-size: 14px">
+                  Levin Premium Quality Any 5 Pairs Low Cut No Show....
+                </p>
+
+                <h5>$ : 95</h5>
+                <p><del style="color: gray" class="pr-1">$100</del>-5%</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-2">
+            <div class="card">
+              <div class="lg">
+                <img
+                  width="159px"
+                  height="159px"
+                  src="https://static-01.daraz.com.bd/p/6cf202d680571d95e059af599d36f1e7.jpg"
+                  alt=""
+                />
+              </div>
+              <div style="padding: 10px">
+                <p style="font-size: 14px">
+                  Levin Premium Quality Any 5 Pairs Low Cut No Show....
+                </p>
+
+                <h5>$ : 250</h5>
+                <p><del style="color: gray" class="pr-1">$500</del>-50%</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <h2 class="pt-3">Categories</h2>
+        </div>
+        <div class="row">
+          <div class="suto">
+            <img
+              height="100px"
+              width="140px"
+              src="https://static-01.daraz.com.bd/p/137d60965cc0177331f8cdd1b54d42b5.jpg"
+              alt=""
+            />
+            <p
+              style="width: 140px; text-align: center; background-color: white"
+            >
+              Body Soaps & Shower Gels
+            </p>
+          </div>
+
+          <div class="suto">
+            <img
+              height="100px"
+              width="140px"
+              src="https://static-01.daraz.com.bd/p/b319ba16b7943aa70d8d8a237a321370.jpg"
+              alt=""
+            />
+            <p
+              style="width: 140px; text-align: center; background-color: white"
+            >
+              Bathroom
+            </p>
+          </div>
+
+          <div class="suto">
+            <img
+              height="100px"
+              width="140px"
+              src="https://static-01.daraz.com.bd/p/9a5ec39664343a24d7ebd8143cb074c0.jpg"
+              alt=""
+            />
+            <p
+              style="width: 140px; text-align: center; background-color: white"
+            >
+              Thrillers
+            </p>
+          </div>
+
+          <div class="suto">
+            <img
+              height="100px"
+              width="140px"
+              src="https://static-01.daraz.com.bd/p/c5db053b79a8c0c1100a1acb333b33f1.jpg"
+              alt=""
+            />
+            <p
+              style="width: 140px; text-align: center; background-color: white"
+            >
+              Soybean Oil
+            </p>
+          </div>
+
+          <div class="suto">
+            <img
+              height="100px"
+              width="140px"
+              src="https://static-01.daraz.com.bd/p/137d60965cc0177331f8cdd1b54d42b5.jpg"
+              alt=""
+            />
+            <p
+              style="width: 140px; text-align: center; background-color: white"
+            >
+              Body Soaps & Shower Gels
+            </p>
+          </div>
+
+          <div class="suto">
+            <img
+              height="100px"
+              width="140px"
+              src="https://static-01.daraz.com.bd/p/b319ba16b7943aa70d8d8a237a321370.jpg"
+              alt=""
+            />
+            <p
+              style="width: 140px; text-align: center; background-color: white"
+            >
+              Bathroom
+            </p>
+          </div>
+
+          <div class="suto">
+            <img
+              height="100px"
+              width="140px"
+              src="https://static-01.daraz.com.bd/p/9a5ec39664343a24d7ebd8143cb074c0.jpg"
+              alt=""
+            />
+            <p
+              style="width: 140px; text-align: center; background-color: white"
+            >
+              Thrillers
+            </p>
+          </div>
+
+          <div class="suto">
+            <img
+              height="100px"
+              width="140px"
+              src="https://static-01.daraz.com.bd/p/7e4198eed3a1a89b6c5ac42df2abaa9a.jpg"
+              alt=""
+            />
+            <p
+              style="width: 140px; text-align: center; background-color: white"
+            >
+              Drink Bottlas
+            </p>
+          </div>
+
+          <div class="suto">
+            <img
+              height="100px"
+              width="140px"
+              src="https://static-01.daraz.com.bd/p/c1a8c88731257a5bf97cfb1eee718b02.jpg"
+              alt=""
+            />
+            <p
+              style="width: 140px; text-align: center; background-color: white"
+            >
+              SmartWatch
+            </p>
+          </div>
+
+          <div class="suto">
+            <img
+              height="100px"
+              width="140px"
+              src="https://static-01.daraz.com.bd/p/b319ba16b7943aa70d8d8a237a321370.jpg"
+              alt=""
+            />
+            <p
+              style="width: 140px; text-align: center; background-color: white"
+            >
+              Bathroom
+            </p>
+          </div>
+
+          <div class="suto">
+            <img
+              height="100px"
+              width="140px"
+              src="https://static-01.daraz.com.bd/p/3ecb3dabe3233b7d9820fc828acb1a14.jpg"
+              alt=""
+            />
+            <p
+              style="width: 140px; text-align: center; background-color: white"
+            >
+              BAkingtools
+            </p>
+          </div>
+
+          <div class="suto">
+            <img
+              height="100px"
+              width="140px"
+              src="https://static-01.daraz.com.bd/p/8ed507eb735dca8336acb84057dfb5b9.jpg"
+              alt=""
+            />
+            <p
+              style="width: 140px; text-align: center; background-color: white"
+            >
+              IP Security cameras
+            </p>
+          </div>
+
+          <div class="suto">
+            <img
+              height="100px"
+              width="140px"
+              src="https://static-01.daraz.com.bd/p/7e4198eed3a1a89b6c5ac42df2abaa9a.jpg"
+              alt=""
+            />
+            <p
+              style="width: 140px; text-align: center; background-color: white"
+            >
+              Drink Bottlas
+            </p>
+          </div>
+
+          <div class="suto">
+            <img
+              height="100px"
+              width="140px"
+              src="https://static-01.daraz.com.bd/p/c1a8c88731257a5bf97cfb1eee718b02.jpg"
+              alt=""
+            />
+            <p
+              style="width: 140px; text-align: center; background-color: white"
+            >
+              SmartWatch
+            </p>
+          </div>
+
+          <div class="suto">
+            <img
+              height="100px"
+              width="140px"
+              src="https://static-01.daraz.com.bd/p/mdc/a6b232a5eda7afd5d2db5a27cf1874db.jpg"
+              alt=""
+            />
+            <p
+              style="width: 140px; text-align: center; background-color: white"
+            >
+              Hoodis
+            </p>
+          </div>
+
+          <div class="suto">
+            <img
+              height="100px"
+              width="140px"
+              src="https://static-01.daraz.com.bd/p/bd763436a2631825b88affda17e2071b.jpg"
+              alt=""
+            />
+            <p
+              style="width: 140px; text-align: center; background-color: white"
+            >
+              Basic
+            </p>
+          </div>
+        </div>
+
+        <h3 class="mt-3">Just for you</h3>
+        <div class="row" style="padding-bottom: 1rem">
+          <div class="col-2">
+            <div class="card">
+              <div class="lg">
+                <img
+                  width="159px"
+                  height="159px"
+                  src="https://static-01.daraz.com.bd/p/ac02940c27749e25083a4112de72ec99.jpg_200x200q80-product.jpg_.webp"
+                  alt=""
+                />
+              </div>
+              <div style="padding: 10px">
+                <p style="font-size: 14px">
+                  <a
+                    href="https://www.daraz.com.bd/products/lotto-breathable-sneaker-shoe-for-men-lotto-shoes-for-men-i248681161-s1194887238.html?spm=a2a0e.home.just4u.145.530112f7p4r6Yy&scm=1007.28811.369953.0&pvid=06dd14cd-0b87-4174-add6-04535fd4da80&clickTrackInfo=pvid%3A06dd14cd-0b87-4174-add6-04535fd4da80%3Bchannel_id%3A0000%3Bmt%3Ahot%3Bitem_id%3A248681161%3B"
+                    style="color: black; text-decoration: none"
+                    >Lotto Breathable Sneaker Shoe for Men - lotto shoes ...</a
+                  >
+                </p>
+
+                <h5>$ : 743</h5>
+                <p><del style="color: gray" class="pr-1">$990</del>-25%</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-2">
+            <div class="card">
+              <div class="lg">
+                <img
+                  width="159px"
+                  height="159px"
+                  src="https://static-01.daraz.com.bd/p/d6ae9fb2ee847d814f65d22c2b6ba71a.jpg_200x200q80-product.jpg_.webp"
+                  alt=""
+                />
+              </div>
+              <div style="padding: 10px">
+                <p style="font-size: 14px">
+                  <a
+                    href="https://www.daraz.com.bd/products/black-blue-khaki-and-grey-color-korean-canvas-sneakers-shoes-for-men-slip-on-casual-shoes-shoes-i277528934-s1258007519.html?spm=a2a0e.home.just4u.2.530112f7NjhAza&scm=1007.28811.369953.0&pvid=d56f8cdf-390b-44c4-81a0-5764e8a206f3&clickTrackInfo=pvid%3Ad56f8cdf-390b-44c4-81a0-5764e8a206f3%3Bchannel_id%3A0000%3Bmt%3Ahot%3Bitem_id%3A277528934%3B"
+                    style="color: black; text-decoration: none"
+                    >Smart phone cover Any 5 Pairs Low Cut No Show...</a
+                  >
+                </p>
+
+                <h5>$ : 60</h5>
+
+                <p><del style="color: gray" class="pr-1">$30</del>-50%</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-2">
+            <div class="card">
+              <div class="lg">
+                <img
+                  width="159px"
+                  height="159px"
+                  src="https://static-01.daraz.com.bd/p/3b129a89f0a5162c136e1669023576d1.jpg_200x200q80-product.jpg_.webp"
+                  alt=""
+                />
+              </div>
+              <div style="padding: 10px">
+                <p style="font-size: 14px">
+                  <a
+                    href="https://www.daraz.com.bd/products/casify-cu04-6a-66w-3-in-1-fast-charging-cable-micro-usb-cable-type-c-cable-lightning-cable-fast-charging-silicone-soft-data-cable-i316071493-s1429463959.html?spm=a2a0e.home.just4u.14.530112f7Mcve0F&scm=1007.28811.369953.0&pvid=4b58be74-0ad2-4a49-ae4a-ee5ec3bb44bf&clickTrackInfo=pvid%3A4b58be74-0ad2-4a49-ae4a-ee5ec3bb44bf%3Bchannel_id%3A0000%3Bmt%3Ahot%3Bitem_id%3A316071493%3B"
+                    style="color: black; text-decoration: none"
+                    >CASIFY CU04 6A 66W 3 in 1 Fast Charging Cable...</a
+                  >
+                </p>
+
+                <h5>$ : 198</h5>
+                <p><del style="color: gray" class="pr-1">$550</del>-64%</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-2">
+            <div class="card">
+              <div class="lg">
+                <img
+                  width="159px"
+                  height="159px"
+                  src="https://static-01.daraz.com.bd/p/6b70980f8bfc09f2bff88bfab037117a.jpg_200x200q80-product.jpg_.webp"
+                  alt=""
+                />
+              </div>
+              <div style="padding: 10px">
+                <p style="font-size: 14px">
+                  <a
+                    href="https://www.daraz.com.bd/products/casify-cu04-6a-66w-3-in-1-fast-charging-cable-micro-usb-cable-type-c-cable-lightning-cable-fast-charging-silicone-soft-data-cable-i316071493-s1429463959.html?spm=a2a0e.home.just4u.14.530112f7Mcve0F&scm=1007.28811.369953.0&pvid=4b58be74-0ad2-4a49-ae4a-ee5ec3bb44bf&clickTrackInfo=pvid%3A4b58be74-0ad2-4a49-ae4a-ee5ec3bb44bf%3Bchannel_id%3A0000%3Bmt%3Ahot%3Bitem_id%3A316071493%3B"
+                    style="color: black; text-decoration: none"
+                    >Digital Watch Waterproof 30M Fashion Women's ...</a
+                  >
+                </p>
+
+                <h5>$ : 112</h5>
+                <p><del style="color: gray" class="pr-1">$200</del>-44%</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-2">
+            <div class="card">
+              <div class="lg">
+                <img
+                  width="159px"
+                  height="159px"
+                  src="https://static-01.daraz.com.bd/p/31974c639f32584ad84175574fae7abc.jpg_200x200q80-product.jpg_.webp
+                  alt="
+                />
+              </div>
+              <div style="padding: 10px">
+                <p style="font-size: 14px">
+                  <a
+                    href="https://www.daraz.com.bd/products/-i326451776-s1574471801.html?spm=a2a0e.home.just4u.3.4c2e12f7Eqr1YC&scm=1007.28811.369953.0&pvid=eb11a707-89ff-473e-bb35-843080d807ed&clickTrackInfo=pvid%3Aeb11a707-89ff-473e-bb35-843080d807ed%3Bchannel_id%3A0000%3Bmt%3Ahot%3Bitem_id%3A326451776%3B"
+                    style="color: black; text-decoration: none"
+                    >Newly designed Premium Quality Full Sleeve Hoodie...</a
+                  >
+                </p>
+
+                <h5>$ : 210</h5>
+                <p><del style="color: gray" class="pr-1">$350</del>-11%</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-2">
+            <div class="card">
+              <div class="lg">
+                <img
+                  width="159px"
+                  height="159px"
+                  src="https://static-01.daraz.com.bd/p/ddf1385107e9116d5f399a01629c30d2.jpg_200x200q80-product.jpg_.webp"
+                  alt=""
+                />
+              </div>
+              <div style="padding: 10px">
+                <p style="font-size: 14px">
+                  <a
+                    href="https://www.daraz.com.bd/products/led-i325541216-s1561440824.html?spm=a2a0e.home.just4u.8.4c2e12f7DAxzeh&scm=1007.28811.369953.0&pvid=578d35f3-d497-4334-aeae-fb0d64ca93cc&clickTrackInfo=pvid%3A578d35f3-d497-4334-aeae-fb0d64ca93cc%3Bchannel_id%3A0000%3Bmt%3Ahot%3Bitem_id%3A325541216%3B"
+                    style="color: black; text-decoration: none"
+                    >New Stylish LED/TOUCH Rose gold /Silver/gold...</a
+                  >
+                </p>
+
+                <h5>$ : 220</h5>
+                <p><del style="color: gray" class="pr-1">$450</del>-51%</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row" style="padding-bottom: 1rem">
+          <div class="col-2">
+            <div class="card">
+              <div class="lg">
+                <img
+                  width="159px"
+                  height="159px"
+                  src="https://static-01.daraz.com.bd/p/320e67405bcb79a573652abe7e5e22ea.jpg_200x200q80-product.jpg_.webp"
+                  alt=""
+                />
+              </div>
+              <div style="padding: 10px">
+                <p style="font-size: 14px">
+                  <a
+                    href="https://www.daraz.com.bd/products/usb-rechargeable-cigarate-lighter-double-side-black-i209705170-s1159982880.html?spm=a2a0e.home.just4u.4.4c2e12f7Aa71b5&scm=1007.28811.369953.0&pvid=3a5fc4a2-7b2c-4841-b09d-4fcac70e6283&clickTrackInfo=pvid%3A3a5fc4a2-7b2c-4841-b09d-4fcac70e6283%3Bchannel_id%3A0000%3Bmt%3Ahot%3Bitem_id%3A209705170%3B"
+                    style="color: black; text-decoration: none"
+                    >USB Rechargeable Cigarate Lighter Double Side -Black...</a
+                  >
+                </p>
+
+                <h5>$ : 162</h5>
+                <p><del style="color: gray" class="pr-1">$500</del>-68%</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-2">
+            <div class="card">
+              <div class="lg">
+                <img
+                  width="159px"
+                  height="159px"
+                  src="https://static-01.daraz.com.bd/p/8025914945377bde3bf58c3965185814.jpg_200x200q80-product.jpg_.webp"
+                  alt=""
+                />
+              </div>
+              <div style="padding: 10px">
+                <p style="font-size: 14px">
+                  <a
+                    href="https://www.daraz.com.bd/products/usb-rechargeable-cigarate-lighter-double-side-black-i209705170-s1159982880.html?spm=a2a0e.home.just4u.4.4c2e12f7Aa71b5&scm=1007.28811.369953.0&pvid=3a5fc4a2-7b2c-4841-b09d-4fcac70e6283&clickTrackInfo=pvid%3A3a5fc4a2-7b2c-4841-b09d-4fcac70e6283%3Bchannel_id%3A0000%3Bmt%3Ahot%3Bitem_id%3A209705170%3B"
+                    style="color: black; text-decoration: none"
+                    >Mi 33W Quick Charge 3.0 Fast Turbo Charger Adapter
+                    Usb...</a
+                  >
+                </p>
+
+                <h5>$ : 429</h5>
+
+                <p><del style="color: gray" class="pr-1">$659</del>-35%</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-2">
+            <div class="card">
+              <div class="lg">
+                <img
+                  width="159px"
+                  height="159px"
+                  src="https://static-01.daraz.com.bd/p/bf7c81168860295629baf5e247de07d5.jpg_200x200q80-product.jpg_.webp"
+                  alt=""
+                />
+              </div>
+              <div style="padding: 10px">
+                <p style="font-size: 14px">
+                  <a
+                    href="https://www.daraz.com.bd/products/usb-rechargeable-cigarate-lighter-double-side-black-i209705170-s1159982880.html?spm=a2a0e.home.just4u.4.4c2e12f7Aa71b5&scm=1007.28811.369953.0&pvid=3a5fc4a2-7b2c-4841-b09d-4fcac70e6283&clickTrackInfo=pvid%3A3a5fc4a2-7b2c-4841-b09d-4fcac70e6283%3Bchannel_id%3A0000%3Bmt%3Ahot%3Bitem_id%3A209705170%3B"
+                    style="color: black; text-decoration: none"
+                    >Lotto Sport Lifestyle Shoe for MenLotto Sport Lifestyle
+                    ...</a
+                  >
+                </p>
+
+                <h5>$ : 2,093</h5>
+                <p><del style="color: gray" class="pr-1">$2,790</del>-25%</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-2">
+            <div class="card">
+              <div class="lg">
+                <img
+                  width="159px"
+                  height="159px"
+                  src="https://static-01.daraz.com.bd/p/19cfdc9d9ee60bd22bba2d57df06e9d5.png_200x200q80-product.jpg_.webp"
+                  alt=""
+                />
+              </div>
+              <div style="padding: 10px">
+                <p style="font-size: 14px">
+                  <a
+                    href="https://www.daraz.com.bd/products/m19-tws-51-led-i324929267-s1556229642.html?spm=a2a0e.home.just4u.10.4c2e12f7UIlPtr&scm=1007.28811.369953.0&pvid=0ec1a99f-db18-4529-b264-29297b127f82&clickTrackInfo=pvid%3A0ec1a99f-db18-4529-b264-29297b127f82%3Bchannel_id%3A0000%3Bmt%3Ahot%3Bitem_id%3A324929267%3B"
+                    style="color: black; text-decoration: none"
+                    >M19 Earbuds TWS Earphone Intelligente Touch ...</a
+                  >
+                </p>
+
+                <h5>$ : 505</h5>
+                <p><del style="color: gray" class="pr-1">$799</del>-37%</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-2">
+            <div class="card">
+              <div class="lg">
+                <img
+                  width="159px"
+                  height="159px"
+                  src="https://static-01.daraz.com.bd/p/a7f2e6c69108bc63911119d995bab9e1.jpg_200x200q80-product.jpg_.webp"
+                  alt=""
+                />
+              </div>
+              <div style="padding: 10px">
+                <p style="font-size: 14px">
+                  <a
+                    href="https://www.daraz.com.bd/products/newborn-outdoor-windproof-plush-solid-colour-soft-baby-hold-blankets-infant-cocoon-wraps-cotton-winter-sleeping-bag-multicolor-for-0-1-year-urine-mat-for-baby-i278546391-s1260909413.html?spm=a2a0e.home.just4u.19.4c2e12f7b3bkFF&scm=1007.28811.369953.0&pvid=bfc1d2cf-0209-49ad-8db7-7bd40b03a1b0&clickTrackInfo=pvid%3Abfc1d2cf-0209-49ad-8db7-7bd40b03a1b0%3Bchannel_id%3A0000%3Bmt%3Ahot%3Bitem_id%3A278546391%3B"
+                    style="color: black; text-decoration: none"
+                    >Newborn Outdoor Windproof Plush Solid Colour Soft
+                    Baby...</a
+                  >
+                </p>
+
+                <h5>$ : 250</h5>
+                <p><del style="color: gray" class="pr-1">$590</del>-58%</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-2">
+            <div class="card">
+              <div class="lg">
+                <img
+                  width="159px"
+                  height="159px"
+                  src="https://static-01.daraz.com.bd/p/813147199dddb9fba0e82f4813f7458d.jpg_200x200q80-product.jpg_.webp"
+                  alt=""
+                />
+              </div>
+              <div style="padding: 10px">
+                <p style="font-size: 14px">
+                  <a
+                    href="https://www.daraz.com.bd/products/for-apple-iphone-6-apple-iphone-6s-new-design-shockproof-airbag-protective-mobile-cover-back-cover-phone-case-i293675104-s1301868081.html?spm=a2a0e.home.just4u.4.4c2e12f7j7ZAxn&scm=1007.28811.369953.0&pvid=53ed018e-cd91-4d50-be8e-ccf66a443fcb&clickTrackInfo=pvid%3A53ed018e-cd91-4d50-be8e-ccf66a443fcb%3Bchannel_id%3A0000%3Bmt%3Ahot%3Bitem_id%3A293675104%3B"
+                    style="color: black; text-decoration: none"
+                    >For Apple iPhone 6 / Apple iPhone 6s New Design ...</a
+                  >
+                </p>
+
+                <h5>$ : 130</h5>
+                <p><del style="color: gray" class="pr-1">$180</del>-28%</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row" style="padding-bottom: 1rem">
+          <div class="col-2">
+            <div class="card">
+              <div class="lg">
+                <img
+                  width="159px"
+                  height="159px"
+                  src="https://static-01.daraz.com.bd/p/2af77fc0fcfc904eceb838f22a3274b0.jpg_200x200q80-product.jpg_.webp"
+                  alt=""
+                />
+              </div>
+              <div style="padding: 10px">
+                <p style="font-size: 14px">
+                  <a
+                    href="https://www.daraz.com.bd/products/high-quality-smart-music-led-light-bulb-with-remote-control-and-bluetooth-speaker-i180997625-s1610410027.html?spm=a2a0e.home.just4u.7.4c2e12f7pfGD3N&scm=1007.28811.369953.0&pvid=65f27417-af13-4361-96b1-57205114b5ce&clickTrackInfo=pvid%3A65f27417-af13-4361-96b1-57205114b5ce%3Bchannel_id%3A0000%3Bmt%3Ahot%3Bitem_id%3A180997625%3B"
+                    style="color: black; text-decoration: none"
+                    >High-quality Smart Music Led Light Bulb With ...</a
+                  >
+                </p>
+
+                <h5>$ : 249</h5>
+                <p><del style="color: gray" class="pr-1">$650</del>-62%</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-2">
+            <div class="card">
+              <div class="lg">
+                <img
+                  width="159px"
+                  height="159px"
+                  src="https://static-01.daraz.com.bd/p/1e94f475103c82984296b8b9bf7b594c.jpg_200x200q80-product.jpg_.webp"
+                  alt=""
+                />
+              </div>
+              <div style="padding: 10px">
+                <p style="font-size: 14px">
+                  <a
+                    href="https://www.daraz.com.bd/products/neck-warmer-winter-hat-knit-cap-scarf-cap-winter-hats-cap-for-men-cap-winter-cap-i134608606-s1056456457.html?spm=a2a0e.home.just4u.13.735212f7HXbihz&scm=1007.28811.369953.0&pvid=3127d0ab-d977-4712-844c-0c38fef0e13f&clickTrackInfo=pvid%3A3127d0ab-d977-4712-844c-0c38fef0e13f%3Bchannel_id%3A0000%3Bmt%3Ahot%3Bitem_id%3A134608606%3B"
+                    style="color: black; text-decoration: none"
+                    >Neck Warmer Winter Hat Knit Cap Scarf Cap Winter...</a
+                  >
+                </p>
+
+                <h5>$ : 125</h5>
+
+                <p><del style="color: gray" class="pr-1">$490</del>-74%</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-2">
+            <div class="card">
+              <div class="lg">
+                <img
+                  width="159px"
+                  height="159px"
+                  src="https://bd-live-21.slatic.net/kf/S4f10bcdfc1e84f5ca2214b8197a674dc6.jpg"
+                  alt=""
+                />
+              </div>
+              <div style="padding: 10px">
+                <p style="font-size: 14px">
+                  <a
+                    href="https://www.daraz.com.bd/products/-i323217862-s1538785597.html?spm=a2a0e.home.just4u.24.4c2e12f7KadVOi&scm=1007.28811.369953.0&pvid=ab1caea4-7cb7-4bca-9821-a9551a10d462&clickTrackInfo=pvid%3Aab1caea4-7cb7-4bca-9821-a9551a10d462%3Bchannel_id%3A0000%3Bmt%3Ahot%3Bitem_id%3A323217862%3B"
+                    style="color: black; text-decoration: none"
+                    >Live Stream Holder Mountain Bike Mobile Phone Holder...</a
+                  >
+                </p>
+
+                <h5>$ : 900</h5>
+                <p><del style="color: gray" class="pr-1">$1000</del>-10%</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-2">
+            <div class="card">
+              <div class="lg">
+                <img
+                  width="159px"
+                  height="159px"
+                  src="https://static-01.daraz.com.bd/p/9edd55fa6e867942603765bd7f6e3ebd.jpg_200x200q80-product.jpg_.webp"
+                  alt=""
+                />
+              </div>
+              <div style="padding: 10px">
+                <p style="font-size: 14px">
+                  <a
+                    href="https://www.daraz.com.bd/products/lotto-casual-lifestyle-shoes-for-men-i324068852-s1549665830.html?spm=a2a0e.home.just4u.8.4c2e12f7OdJzpD&scm=1007.28811.369953.0&pvid=6eabba31-e997-4051-8a94-43a8e7a7776c&clickTrackInfo=pvid%3A6eabba31-e997-4051-8a94-43a8e7a7776c%3Bchannel_id%3A0000%3Bmt%3Ahot%3Bitem_id%3A324068852%3B"
+                    style="color: black; text-decoration: none"
+                    >পুরুষদের জন্য লোটো ক্যাজুয়াল লাইফস্টাইল জুতা...</a
+                  >
+                </p>
+
+                <h5>$ : 668</h5>
+                <p><del style="color: gray" class="pr-1">$890</del>-25%</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-2">
+            <div class="card">
+              <div class="lg">
+                <img
+                  width="159px"
+                  height="159px"
+                  src="https://static-01.daraz.com.bd/p/b99a058c607d5fd4ada959bd74ab76ea.jpg_200x200q80-product.jpg_.webp"
+                  alt=""
+                />
+              </div>
+              <div style="padding: 10px">
+                <p style="font-size: 14px">
+                  <a
+                    href="https://www.daraz.com.bd/products/i9-hd-8-i315057886-s1485735768.html?spm=a2a0e.home.just4u.4.4c2e12f7cotZlF&scm=1007.28811.369953.0&pvid=25b7fb42-fdd0-4da1-96cf-d4fd5379e0c0&clickTrackInfo=pvid%3A25b7fb42-fdd0-4da1-96cf-d4fd5379e0c0%3Bchannel_id%3A0000%3Bmt%3Ahot%3Bitem_id%3A315057886%3B"
+                    style="color: black; text-decoration: none"
+                    >Homel i9 Ultra Max Smart Watch HD Big Screen ...</a
+                  >
+                </p>
+
+                <h5>$ : 769</h5>
+                <p><del style="color: gray" class="pr-1">$1659</del>-54%</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-2">
+            <div class="card">
+              <div class="lg">
+                <img
+                  width="159px"
+                  height="159px"
+                  src="https://bd-live-21.slatic.net/kf/Sd74dbb1965364867948b0de5379fe3ffD.jpg"
+                  alt=""
+                />
+              </div>
+              <div style="padding: 10px">
+                <p style="font-size: 14px">
+                  <a
+                    href="https://www.daraz.com.bd/products/-i322946046-s1560767672.html?spm=a2a0e.home.just4u.21.4c2e12f72kip94&scm=1007.28811.369953.0&pvid=bf2ca9b9-8a39-4795-8ea6-fe6241550597&clickTrackInfo=pvid%3Abf2ca9b9-8a39-4795-8ea6-fe6241550597%3Bchannel_id%3A0000%3Bmt%3Ahot%3Bitem_id%3A322946046%3B"
+                    style="color: black; text-decoration: none"
+                    >Artificial Floral Hair Comb Clip For Women ...</a
+                  >
+                </p>
+
+                <h5>$ : 175</h5>
+                <p><del style="color: gray" class="pr-1">$320</del>-45%</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+      </main>
+      <!-- main end -->
+      <!-- footer start -->
+      <footer>
+        <div>
+          <h6 class="load">Load more</h6>
+        </div>
+
+        <div class="row pt-5 text-center">
+          <div class="col-lg-4">
+             <h5>Customer Care</h5>
+          
+              <h6><a href="https://helpcenter.daraz.com.bd/page/home?spm=a2a0e.home.footer_top.1.4c2e12f74sDFFL&language=en&pageId=1&scm=1003.4.icms-zebra-100022982-6850452.OTHER_6502233774_7696023">Help Center</a></h6>
+             <h6><a href="https://helpcenter.daraz.com.bd/page/knowledge?spm=a2a0e.home.footer_top.2.4c2e12f74sDFFL&language=en&pageId=11&category=1000001032&scm=1003.4.icms-zebra-100022982-6850452.OTHER_6502233775_7696023&knowledge=1000005321">How to Buy</a></h6>
+             <h6><a href="https://www.daraz.com.bd/wow/i/bd/help-pages/how-to-return?spm=a2a0e.home.footer_top.3.4c2e12f74sDFFL&hybrid=1&scm=1003.4.icms-zebra-100022982-6850452.OTHER_6502233776_7696023">Returns & Refunds</a></h6>
+             <h6><a href="https://www.daraz.com.bd/contact-us/?spm=a2a0e.home.footer_top.4.4c2e12f74sDFFL&scm=1003.4.icms-zebra-100022982-6850452.OTHER_6502233777_7696023">Contact Us</a></h6>
+             <h6><a href="https://www.daraz.com.bd/wow/i/bd/help-pages/terms-and-conditions/?spm=a2a0e.home.footer_top.5.4c2e12f74sDFFL&scm=1003.4.icms-zebra-100022982-6850452.OTHER_6502233778_7696023">Terms & Conditions</a></h6>
+             <h6><a href="https://ccms.gov.bd/ticket-apply?spm=a2a0e.home.footer_top.6.4c2e12f74sDFFL&scm=1003.4.icms-zebra-100022982-6850452.OTHER_6502233779_7696023&token=DAR-3011-iIMd2">CCMS-Central Complain Management</a></h6>
+             <h6><a href="https://ccms.gov.bd/ticket-apply?spm=a2a0e.home.footer_top.6.4c2e12f74sDFFL&scm=1003.4.icms-zebra-100022982-6850452.OTHER_6502233779_7696023&token=DAR-3011-iIMd2">System</a></h6>
+            
+          </div> 
+
+          <div class="col-lg-4">
+            <h5>Daraz</h5>
+          
+            <h6><a href="https://www.daraz.com.bd/about-us/?spm=a2a0e.home.footer_top.11.4c2e12f74sDFFL&scm=1003.4.icms-zebra-100022982-2888463.OTHER_6051348799_2538033">About Daraz</a></h6>
+           <h6><a href="https://pages.daraz.com.bd/wow/gcp/daraz/channel/bd/pay/daraz-pay?spm=a2a0e.home.footer_top.12.4c2e12f74sDFFL&scm=1003.4.icms-zebra-100022982-2888463.OTHER_6051348800_2538033">Digital Payments</a></h6>
+           <h6><a href="https://pages.daraz.com.bd/wow/gcp/daraz/channel/bd/help-page/daraz-co-brand-card?spm=a2a0e.home.footer_top.13.4c2e12f74sDFFL&scm=1003.4.icms-zebra-100022982-2888463.OTHER_6502124219_2538033">Daraz Card</a></h6>
+           <h6><a href="https://blog.daraz.com.bd/?spm=a2a0e.home.footer_top.14.4c2e12f74sDFFL&scm=1003.4.icms-zebra-100022982-2888463.OTHER_6051348802_2538033">Daraz Blog</a></h6>
+           <h6><a href="https://www.daraz.com.bd/daraz-cares/?spm=a2a0e.home.footer_top.15.4c2e12f74sDFFL&scm=1003.4.icms-zebra-100022982-2888463.OTHER_6051348803_2538033">Daraz Cares</a></h6>
+           <h6><a href="https://pages.daraz.com.bd/wow/gcp/daraz/channel/bd/dmart/dmart-home?spm=a2a0e.home.footer_top.16.4c2e12f74sDFFL&scm=1003.4.icms-zebra-100022982-2888463.OTHER_6051348804_2538033">Daraz Mart</a></h6>
+           <h6><a href="https://www.daraz.com.bd/wow/i/bd/help-pages/privacy-policy?spm=a2a0e.home.footer_top.17.4c2e12f74sDFFL&hybrid=1&scm=1003.4.icms-zebra-100022982-2888463.OTHER_6051348805_2538033">Privacy Plicy</a></h6>
+          
+          </div>
+
+          <div class="col-lg-4">
+            <h5>EArn With Daraz</h5>
+          
+            <h6><a href="https://university.daraz.com.bd/?spm=a2a0e.home.footer_top.7.4c2e12f74sDFFL&scm=1003.4.icms-zebra-100022982-2888459.OTHER_5476361449_2538025">Daraz University</a></h6>
+           <h6><a href="https://sellercenter.daraz.com.bd/apps/seller/login?spm=a2a0e.home.footer_top.8.4c2e12f74sDFFL&scm=1003.4.icms-zebra-100022982-2888459.OTHER_5476361450_2538025&regist=true">Sell on Dazar</a></h6>
+           <h6><a href="https://www.daraz.com.bd/wow/i/bd/help-pages/code-of-conduct?spm=a2a0e.home.footer_top.9.4c2e12f74sDFFL&hybrid=1&scm=1003.4.icms-zebra-100022982-2888459.OTHER_5476361451_2538025">Code of Conduct</a></h6>
+           <h6><a href="https://www.daraz.com.bd/daraz-affiliate-program/?spm=a2a0e.home.footer_top.10.4c2e12f74sDFFL&scm=1003.4.icms-zebra-100022982-2888459.OTHER_6035955355_2538025">Join the Daraz Affiliate Progtam</a></h6>
+          </div>
+
+       
+        </div>
+
+
+        <div class="row ms">
+            <div>
+                <p>&copy; this is creat by MD(Lihan)&copy;</p>
+            </div>
+           <div>
+                <ul class="foot">
+                  <li><a href="header">Home</a></li>
+                  <li><a href="#manu">Manu</a></li>
+                  <li><a href="https://www.facebook.com" target="_blank">Facebook</a></li>
+                  <li><a href="https://www.youtube.com/" target="_blank">Youtube</a></li>
+                </ul>
+           </div>
+        </div>
+      </footer>
+      <!-- footer end -->
+
+      <!-- script cdn -->
+
+      <script
+        src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"
+      ></script>
+      <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+        crossorigin="anonymous"
+      ></script>
+      <script src="index.js"></script>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,150 @@
+body {
+  background-color: rgba(219, 211, 211, 0.3);
+}
+#search {
+  border: none;
+  border-radius: 10px;
+  padding: 6px 30px;
+  background-image: url(img/search.jpg);
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: center;
+  background-size: 3rem;
+}
+#next {
+  text-decoration: none;
+  color: white;
+}
+
+#icon {
+  color: white;
+  text-decoration: none;
+  transition: 0.3s;
+}
+#icon:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 8px;
+}
+#select {
+  color: white;
+  font-weight: bold;
+  border: none;
+  background-color: #eb6b22;
+}
+#para p {
+  font-size: 12px;
+}
+#para {
+  background-color: white;
+  border-radius: 8px;
+  padding: 10px 8px;
+  box-shadow: 0.1px 0.3px 0.6px black;
+  height: 303px;
+}
+#full-img img {
+  border-radius: 8px;
+}
+/* banner start */
+.banner {
+  margin: 0 auto;
+  margin-top: 5px;
+  height: 15rem;
+  width: 90%;
+  border-radius: 10px 10px 90px 90px;
+}
+.banner-des {
+  margin-top: 10px;
+  text-align: center;
+  background-color: #f5dfd1;
+  padding: 8px;
+  border-radius: 10px;
+}
+.banner-des a {
+  padding: 0px 10px;
+  text-decoration: none;
+  color: #eb6b22;
+}
+.banner-des a:hover {
+  transition: 0.3s;
+  color: black;
+}
+#des div {
+  margin: 0rem 1rem;
+  text-align: center;
+}
+.shop {
+  color: #eb6b22;
+  padding: 6px;
+  border: 1px solid #eb6b22;
+  margin-left: 88%;
+  width: 110px;
+}
+.on {
+  color: #eb6b22;
+}
+.flex {
+  display: flex;
+}
+.color {
+  background-color: white;
+  padding-top: 1.3rem;
+}
+.logo {
+  width: 100%;
+}
+.card {
+  background-color: white;
+  border: none;
+}
+.card:hover {
+  box-shadow: 0.1px 0.1px 1.6px black;
+}
+h5 {
+  color: #eb6b22;
+}
+.suto {
+  height: 150px;
+  border: 0.001px solid rgb(216, 214, 214);
+  background-color: white;
+}
+.suto:hover {
+  box-shadow: 0.1px 0.1px 1.8px black;
+}
+.lg {
+  height: 10rem;
+}
+.load {
+  text-align: center;
+  border: 1px solid #eb6b22;
+  width: 40%;
+  margin: 0 auto;
+  padding: 10px;
+  color: #eb6b22;
+  text-transform: uppercase;
+}
+footer h6 a {
+  color: rgb(20, 20, 20);
+  padding: 0;
+  margin: 0;
+  font-size: 13px;
+}
+
+.foot li {
+  list-style-type: none;
+  padding: 0px 6px;
+  cursor: pointer;
+}
+.foot li a {
+  color: white;
+}
+.foot {
+  display: flex;
+  text-align: center;
+}
+.ms {
+  justify-content: space-between;
+  padding: 10px;
+  background-color: black;
+  color: white;
+}
+/* banner end */
